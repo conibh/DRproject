@@ -1,0 +1,16 @@
+{
+  "name": "projectdr",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "bootstrap",
+    "bootstrap-v5",
+    "sass"
+  ],
+  "author": "Constanza Baeza",
+  "license": "ISC"
+}

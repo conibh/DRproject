@@ -4,14 +4,18 @@
   padding: 12px;
   color: #ffffff;
   padding-left: 24px;
-  padding-bottom: 12px;
+  padding-bottom: 4px;
   text-align: center;
   background-color: transparent;
   border-bottom: 1px solid rgba(144, 144, 144, 0.25);
 }
 
+#topbar:hover {
+  background-color: rgba(0, 0, 0, 0.4);
+}
+
 a:hover {
-  opacity: -0.5;
+  opacity: 0.5;
 }
 
 #topbar a {
@@ -19,23 +23,31 @@ a:hover {
   color: #ffffff;
 }
 
+img.icon {
+  vertical-align: top;
+  padding-bottom: 5px;
+}
+
 @media (min-width: 576px) {
   .navbar-expand-sm .navbar-nav .nav-link {
     padding-right: 0.5rem;
-    padding-left: 0.5rem;
-    color: transparent;
+    padding-left: 50px;
+    color: #ffffff;
     padding-left: 24px;
     text-decoration: none;
     font-size: 16px;
+    text-align: left;
+    font-family: poppins, Sans-serif, Roboto;
+    place-items: left;
   }
 }
-#toggler {
+.navbar-toggler {
   background-color: #058D97;
 }
 
 .bgimage {
   width: 100%;
-  height: 450px;
+  height: 600px;
   background: url("https://images.unsplash.com/photo-1504639725590-34d0984388bd?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1374&q=80");
   background-repeat: no-repeat;
   background-position: center;
@@ -52,12 +64,20 @@ a:hover {
   font-family: poppins, Sans-serif, Roboto;
 }
 
-@media (min-width: 576px) {
-  #aboutussection {
-    margin-top: 18px;
-    justify-content: center;
-  }
+#aboutussection {
+  margin-top: 18px;
+  justify-content: center;
 }
-body {
-  background-color: black;
+
+#ourservices {
+  border-radius: 5%;
+}
+
+p, .aboutus {
+  color: #ffffff;
+  padding-left: 24px;
+}
+
+.aboutus h2 {
+  text-align: center;
 }/*# sourceMappingURL=main.css.map */

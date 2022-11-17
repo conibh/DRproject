@@ -38,7 +38,7 @@ img.icon {
     font-size: 16px;
     text-align: left;
     font-family: poppins, Sans-serif, Roboto;
-    place-items: left;
+    float: left;
   }
 }
 .navbar-toggler {
@@ -69,15 +69,23 @@ img.icon {
   justify-content: center;
 }
 
-#ourservices {
-  border-radius: 5%;
+div.card {
+  margin-top: 24px;
+}
+
+a.btn {
+  background-color: #058D97;
 }
 
 p, .aboutus {
   color: #ffffff;
-  padding-left: 24px;
 }
 
 .aboutus h2 {
   text-align: center;
+}
+
+img#imgaboutus {
+  width: 100%;
+  align-content: left;
 }/*# sourceMappingURL=main.css.map */

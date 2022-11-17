@@ -132,28 +132,34 @@ $grid-breakpoints: (
 
   // OUR SERVICES
 
-  div#ourservices.col-lg-4 {
-    border-radius: 5%;
-    border-width: $border-width;
-    border-color: $accent;
-  }
-  
+
+div.card-body {
+  //height: 100px;
+}
+
+div.card {
+  margin-top: $pcards;
+}
+
+a.btn {
+  background-color: $accent;
+}
 
 //BODY//
 
 p, .aboutus { 
 color: $main;
-padding-left: $medium-big;
 }
 
 .aboutus h2 {
 
   text-align: center;
 }
-
-div.card-body {
-  height: 50px;
-}
+ img#imgaboutus{
+  width: 100%;
+  align-content: left;
+ }
+ 
   // BODY 
 //   body {
 //   background-color: $background;

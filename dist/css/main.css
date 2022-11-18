@@ -69,6 +69,10 @@ img.icon {
   justify-content: center;
 }
 
+div.card-body {
+  background-color: #058D97;
+}
+
 div.card {
   margin-top: 24px;
 }

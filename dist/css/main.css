@@ -22,9 +22,6 @@
 a:hover {
   opacity: 0.5;
 }
-a.btn {
-  background-color: #058D97;
-}
 
 img.icon {
   vertical-align: top;
@@ -99,6 +96,28 @@ img#imgAboutUs {
   border-color: rgba(255, 255, 255, 0.1607843137);
 }
 
+.technologies ul li {
+  width: 122px;
+  min-width: 90px;
+  min-height: 90px;
+  margin-left: auto;
+  margin-right: auto;
+  display: inline-block;
+  text-align: center;
+  filter: grayscale(100%);
+}
+.technologies ul li:hover {
+  opacity: 0.5;
+}
+
+#technologies {
+  background-color: #ffffff;
+  padding-top: 20px;
+}
+#technologies:hover {
+  opacity: 1;
+}
+
 p,
 .about-us {
   color: #ffffff;
@@ -106,4 +125,19 @@ p,
 
 .about-us h2 {
   text-align: center;
+}
+
+#footer {
+  padding: 30px;
+  background-color: #058D97;
+  margin-top: 50px;
+}
+
+#footerSecondCol {
+  padding-top: 30px;
+  margin-top: 30px;
+}
+
+#footerThirdCol {
+  padding-left: 50px;
 }/*# sourceMappingURL=main.css.map */

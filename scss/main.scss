@@ -102,20 +102,19 @@ img {
 
 ////////////////////////NAVBAR///////////////////////////////////
 /// /////////////////////////////////////////////////////////////
-.navbar-nav .nav-link {
-  color: $main;
 
-  @media (min-width: 576px) {
-    padding-right: 0.5rem;
-    padding-left: 50px;
-    padding-left: $pcards;
-    text-decoration: none;
-    font-size: $p;
-    text-align: left;
-    font-family: $mainfont;
-    float: left;
-  }
-}
+// //.navbar-nav .nav-link {
+//     color: $main;
+//     padding-right: 0.5rem;
+//     padding-left: 50px;
+//     padding-left: $pcards;
+//     text-decoration: none;
+//     font-size: $p;
+//     text-align: left;
+//     font-family: $mainfont;
+//     float: left;
+//   }
+
 
 
 .navbar-toggler {
@@ -146,12 +145,22 @@ img {
 
 }
 
-// @media (min-width: 576px)
-#aboutUsSection {
-  margin-top: $medium-small;
-  justify-content: center;
+// ABOUT US SECTION 
+
+p,
+.about-us {
+  color: $main;
 }
 
+.about-us h2 {
+  margin-top: 30px;
+  text-align: center;
+}
+
+#imgAboutUs {
+  margin-top: 30px;
+  border-radius: 5px;
+}
 // OUR SERVICES
 
 .title{
@@ -162,13 +171,15 @@ img {
 .col-md-8 {
   border-style: solid;
   border-color: $main;
-  border-radius: 5px;
+  border-radius: 20px;
   padding: 20px;
 
   &:hover {
     border-color: #ffffff29;
   }
 }
+
+
 
 //TECHNOLOGIES//
 
@@ -199,18 +210,6 @@ padding-top: 20px;
 }
 
 
-//BODY//
-
-p,
-.about-us {
-  color: $main;
-}
-
-.about-us h2 {
-
-  text-align: center;
-}
-
 // FOOTER //
 
 #footer {
@@ -229,10 +228,3 @@ p,
 #footerThirdCol {
   padding-left: 50px;
 }
-
-// BODY 
-//   body {
-//   background-color: $background;
-// }
-// background-color: $accent;
-// }

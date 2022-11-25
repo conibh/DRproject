@@ -90,6 +90,39 @@ p,
   border-color: rgba(255, 255, 255, 0.1607843137);
 }
 
+#fintech {
+  position: relative;
+}
+
+.fintech-image {
+  position: absolute;
+  left: 0;
+  top: 0;
+  transform: translate(540%, -50%);
+}
+
+#medtech {
+  position: relative;
+}
+
+.medtech-image {
+  position: absolute;
+  left: 0;
+  top: 0;
+  transform: translate(-50%, -60%);
+}
+
+#customWork {
+  position: relative;
+}
+
+.custom-work-image {
+  position: absolute;
+  left: 0;
+  top: 0;
+  transform: translate(796px, -91px);
+}
+
 .technologies ul li {
   width: 122px;
   min-width: 90px;

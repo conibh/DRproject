@@ -1,6 +1,7 @@
 
 
-$grid-breakpoints: (xs: 0,
+$grid-breakpoints: 
+ (xs: 0,
   sm: 576px,
   md: 768px,
   lg: 992px,
@@ -192,6 +193,12 @@ p,
   left: 0;
   top: 0;
   transform: translate(540%, -50%);
+  @media (min-width: 320px) and (max-width: 767px) {
+    position: absolute;
+    top: 3px;
+    left: -324px;
+    height: 112px;
+}
 }
 
 #medtech {
@@ -203,6 +210,13 @@ p,
   left: 0;
   top: 0;
   transform: translate(-50%, -60%);
+  @media (min-width: 320px) and (max-width: 767px) {
+    position: absolute;
+    top: 16px;
+    left: 54px;
+    height: 112px;
+    
+}
 }
 
 #customWork {
@@ -214,6 +228,13 @@ p,
   left: 0;
   top: 0;
   transform: translate(796px, -91px);
+  
+  @media (min-width: 320px) and (max-width: 767px) {
+    position: absolute;
+    top: 44px;
+    left: -517px;
+    height: 112px;
+}
 }
 
 //TECHNOLOGIES//

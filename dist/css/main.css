@@ -100,6 +100,14 @@ p,
   top: 0;
   transform: translate(540%, -50%);
 }
+@media (min-width: 320px) and (max-width: 767px) {
+  .fintech-image {
+    position: absolute;
+    top: 3px;
+    left: -324px;
+    height: 112px;
+  }
+}
 
 #medtech {
   position: relative;
@@ -111,6 +119,14 @@ p,
   top: 0;
   transform: translate(-50%, -60%);
 }
+@media (min-width: 320px) and (max-width: 767px) {
+  .medtech-image {
+    position: absolute;
+    top: 16px;
+    left: 54px;
+    height: 112px;
+  }
+}
 
 #customWork {
   position: relative;
@@ -121,6 +137,14 @@ p,
   left: 0;
   top: 0;
   transform: translate(796px, -91px);
+}
+@media (min-width: 320px) and (max-width: 767px) {
+  .custom-work-image {
+    position: absolute;
+    top: 44px;
+    left: -517px;
+    height: 112px;
+  }
 }
 
 .technologies ul li {

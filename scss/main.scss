@@ -190,9 +190,9 @@ p,
 }
 .fintech-image {
   position: absolute;
-  left: 0;
-  top: 0;
-  transform: translate(540%, -50%);
+  left: -56px;
+  top: -69px;
+
   @media (min-width: 320px) and (max-width: 767px) {
     position: absolute;
     top: 3px;
@@ -207,9 +207,9 @@ p,
 
 .medtech-image {
   position: absolute;
-  left: 0;
-  top: 0;
-  transform: translate(-50%, -60%);
+  left: -79px;
+  top: -75px;
+  
   @media (min-width: 320px) and (max-width: 767px) {
     position: absolute;
     top: 16px;
@@ -225,9 +225,8 @@ p,
 
 .custom-work-image {
   position: absolute;
-  left: 0;
-  top: 0;
-  transform: translate(796px, -91px);
+  left: -56px;
+  top: -82px;
   
   @media (min-width: 320px) and (max-width: 767px) {
     position: absolute;

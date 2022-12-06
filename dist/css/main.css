@@ -96,9 +96,8 @@ p,
 
 .fintech-image {
   position: absolute;
-  left: 0;
-  top: 0;
-  transform: translate(540%, -50%);
+  left: -56px;
+  top: -69px;
 }
 @media (min-width: 320px) and (max-width: 767px) {
   .fintech-image {
@@ -115,9 +114,8 @@ p,
 
 .medtech-image {
   position: absolute;
-  left: 0;
-  top: 0;
-  transform: translate(-50%, -60%);
+  left: -79px;
+  top: -75px;
 }
 @media (min-width: 320px) and (max-width: 767px) {
   .medtech-image {
@@ -134,9 +132,8 @@ p,
 
 .custom-work-image {
   position: absolute;
-  left: 0;
-  top: 0;
-  transform: translate(796px, -91px);
+  left: -56px;
+  top: -82px;
 }
 @media (min-width: 320px) and (max-width: 767px) {
   .custom-work-image {

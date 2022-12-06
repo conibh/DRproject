@@ -164,19 +164,4 @@ p,
 }
 #technologies:hover {
   opacity: 1;
-}
-
-#footer {
-  padding: 30px;
-  background-color: #058D97;
-  margin-top: 50px;
-}
-
-#footerSecondCol {
-  padding-top: 30px;
-  margin-top: 30px;
-}
-
-#footerThirdCol {
-  padding-left: 50px;
 }/*# sourceMappingURL=main.css.map */

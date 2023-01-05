@@ -61,7 +61,7 @@ $navbar-light-hover-color:rgba($main, .7);
 /////////////////////////TOPBAR///////////////////////////////////
 /// /////////////////////////////////////////////////////////////
 
-#topbar {
+#topBar {
   font-family: $mainfont;
   font-size: $navtopbar;
   //background: linear-gradient($second, black);
@@ -98,7 +98,7 @@ img {
 
 }
 
-#topbar a {
+#topBar a {
   text-decoration: none;
   color: $primary;
 }
